@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ti4e.wira.platform05fcm.MainActi"
+    android:background="#ffffff">
+
+
+    <ImageView
+        android:layout_margin="10dp"
+        android:id="@+id/imageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:minHeight="300dp"
+        android:background="#dddddd"
+        android:src="@drawable/sasd"
+        />
+    <ImageView
+        android:layout_below="@+id/imageLayout"
+        android:nextFocusLeft="@id/imageLayout"
+        android:layout_margin="10dp"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/imageLayout2"
+        android:layout_width="150px"
+        android:layout_height="150px"
+        android:background="#eeeeee"
+        android:src="@drawable/sasd"
+        />
+    <Button
+        android:id="@+id/btnEmoji"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Replace Image"
+        android:layout_below="@+id/imageLayout2"
+        android:layout_alignParentRight="true"></Button>
+</RelativeLayout>
